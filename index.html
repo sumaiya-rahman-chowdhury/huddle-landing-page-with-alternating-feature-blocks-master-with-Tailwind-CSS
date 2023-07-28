@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          backgroundImage: {
+            'banner-bg' : 'url("/images/bg-hero-desktop.svg")'
+          }
+        }
+      }
+    }
+  </script>
+  
+</head>
+
+<body>
+  <header class=" pt-9 h-screen bg-banner-bg">
+    <nav class="flex justify-between items-center lg:px-12 px-5">
+      <!-- logo -->
+      <div>
+        <img src="images/logo.svg" alt="" class="w-[150px]">
+      </div>
+      <!-- search bar -->
+      <div>
+      <input type="search" placeholder="Try it Free" class="w-[200px] text-center p-3 rounded-3xl drop-shadow-lg outline-none">
+      </div>
+    </nav>
+    <!--  -->
+    <div class="h-[calc(100vh-66px)] flex lg:justify-between items-center lg:flex-row flex-col gap-x-10 lg:px-12">
+      <div class="space-y-8 lg:text-left text-center lg:pt-0 pt-10">
+        <h2 class="lg:text-5xl text-3xl font-bold  leading-normal lg:px-0 px-8">Build The Community Your Fans Will Love</h2>
+        <p class="lg:text-left lg:max-w-md lg:px-0 px-8">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion. </p>
+         <div class="flex lg:justify-start justify-center lg:pb-0 pb-10  items-center">
+          <button class="btn  bg-pink-400 text-white rounded-3xl text-xs px-14 text-center "> Get Started For Free</button>
+         </div>
+      </div>
+      <div>
+        <img src="images/illustration-mockups.svg" alt="" class="px-5 lg:px-0 ">
+      </div>
+    </div>
+  </header>
+  <main class="container mx-auto">
+    <!-- grow tog -->
+    <section class="lg:pt-20 pt-10">
+      <div class="flex lg:flex-row flex-col lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12">
+        <!--  -->
+        <div class="space-y-8">
+          <h2 class="text-3xl font-bold">Grow Together </h2>
+          <p class="max-w-2xl"> Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form. </p>
+        </div>
+        <div>
+          <img src="images/illustration-grow-together.svg" alt="">
+        </div>
+        <!--  -->
+      </div>
+    </section>
+    <!-- flowing convo -->
+    <section class="lg:pt-20 pt-10">
+      <div class="flex  flex-col lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12 lg:flex-row-reverse">
+        <!--  -->
+        <div class="space-y-8">
+          <h2 class="text-3xl font-bold">Flowing Conversations</h2>
+          <p class="max-w-2xl"> 
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.</p>
+        </div>
+        <div>
+          <img src="images/illustration-flowing-conversation.svg" alt="">
+        </div>
+        <!--  -->
+      </div>
+    </section>
+    <!-- users -->
+    <section class="lg:pt-20 pt-10">
+      <div class="flex lg:flex-row flex-col lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12">
+        <!--  -->
+        <div class="space-y-8">
+          <h2 class="text-3xl font-bold">Your Users</h2>
+          <p class="max-w-2xl"> It takes no time at all to integrate Huddle with your app's authentication solution. 
+            This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <div>
+          <img src="images/illustration-your-users.svg" alt="">
+        </div>
+        <!--  -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class=" relative  flex flex-col justify-between items-center px-10 py-10 drop-shadow-2xl shadow-2xl bg-white w-[500px] mx-auto mt-44 rounded-xl space-y-8">
+      <h2 class="text-2xl font-bold">Ready To Build Your Community?</h2>
+      <div class="flex ">
+        <button class="btn  bg-pink-400 text-white rounded-3xl text-xs px-14 text-center "> Get Started For Free</button>
+       </div>
+    </div>
+    <div class="absolute  w-full bg-[#00252e] h-72">
+
+    </div>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p> -->
+  </footer>
+</body>
+
+</html>
