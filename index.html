@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -30,8 +30,8 @@
   
 </head>
 
-<body>
-  <header class=" pt-9 h-screen bg-banner-bg">
+<body class="text-white">
+  <header class=" pt-9 h-screen bg-banner-bg bg-cover bg-center bg-no-repeat">
     <nav class="flex justify-between items-center lg:px-12 px-5">
       <!-- logo -->
       <div>
@@ -60,11 +60,11 @@
   <main class="container mx-auto">
     <!-- grow tog -->
     <section class="lg:pt-20 pt-10">
-      <div class="flex lg:flex-row flex-col lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12">
+      <div class="flex shadow-zinc-100 lg:flex-row flex-col-reverse lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12">
         <!--  -->
-        <div class="space-y-8">
+        <div class="lg:space-y-8 lg:text-left text-center">
           <h2 class="text-3xl font-bold">Grow Together </h2>
-          <p class="max-w-2xl"> Generate meaningful discussions with your audience and build a strong, loyal community. 
+          <p class="lg:max-w-2xl lg:px-0 px-5"> Generate meaningful discussions with your audience and build a strong, loyal community. 
             Think of the insightful conversations you miss out on with a feedback form. </p>
         </div>
         <div>
@@ -75,11 +75,11 @@
     </section>
     <!-- flowing convo -->
     <section class="lg:pt-20 pt-10">
-      <div class="flex  flex-col lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12 lg:flex-row-reverse">
+      <div class="flex shadow-zinc-100 flex-col-reverse lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12 lg:flex-row-reverse px-10 py-10  ">
         <!--  -->
-        <div class="space-y-8">
+        <div class="lg:space-y-8 lg:text-left text-center">
           <h2 class="text-3xl font-bold">Flowing Conversations</h2>
-          <p class="max-w-2xl"> 
+          <p class="lg:max-w-2xl lg:px-0 px-5"> 
             You wouldn't paginate a conversation in real life, so why do it online? Our threads 
             have just-in-time loading for a more natural flow.</p>
         </div>
@@ -91,11 +91,11 @@
     </section>
     <!-- users -->
     <section class="lg:pt-20 pt-10">
-      <div class="flex lg:flex-row flex-col lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12">
+      <div class="flex lg:flex-row flex-col-reverse lg:justify-between items-center lg:px-20 lg:gap-x-20 shadow-lg border-2 lg:py-12  shadow-zinc-100 px-10 py-10 ">
         <!--  -->
-        <div class="space-y-8">
+        <div class="lg:space-y-8 lg:text-left text-center">
           <h2 class="text-3xl font-bold">Your Users</h2>
-          <p class="max-w-2xl"> It takes no time at all to integrate Huddle with your app's authentication solution. 
+          <p class="lg:max-w-2xl lg:px-0 px-5"> It takes no time at all to integrate Huddle with your app's authentication solution. 
             This means, once signed in to your app, your users can start chatting immediately.</p>
         </div>
         <div>
@@ -104,23 +104,20 @@
         <!--  -->
       </div>
     </section>
-
+  
   </main>
 
-  <footer>
-    <div class=" relative  flex flex-col justify-between items-center px-10 py-10 drop-shadow-2xl shadow-2xl bg-white w-[500px] mx-auto mt-44 rounded-xl space-y-8">
-      <h2 class="text-2xl font-bold">Ready To Build Your Community?</h2>
+  <footer class="relative  w-full bg-[#00252e] h-96 mt-48">
+    <div class="absolute  -top-[30%] lg:left-[35%] left-5 flex flex-col justify-between items-center w-[90%] lg:px-10 lg:py-10 drop-shadow-2xl shadow-zinc-100 shadow-lg bg-white  lg:w-[500px] mx-auto  rounded-xl space-y-8 text-black py-6">
+      <h2 class="lg:text-2xl text-xl text-center font-bold">Ready To Build Your Community?</h2>
       <div class="flex ">
-        <button class="btn  bg-pink-400 text-white rounded-3xl text-xs px-14 text-center "> Get Started For Free</button>
+        <button class="btn  bg-pink-400 text-white rounded-3xl text-xs px-14 text-center border-none"> Get Started For Free</button>
        </div>
     </div>
-    <div class="absolute  w-full bg-[#00252e] h-72">
+    <div class="  ">
 
     </div>
-    <!-- <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p> -->
+   
   </footer>
 </body>
 
